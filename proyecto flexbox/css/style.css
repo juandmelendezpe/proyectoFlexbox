@@ -46,6 +46,7 @@ header {
 header hr{
     margin: 5px;
 }
+/*********menu************/
 nav{
 
     text-align: center;
@@ -84,3 +85,4 @@ nav li:hover {
     padding: 0;
    /* background-size: cover;*/
 }
+
