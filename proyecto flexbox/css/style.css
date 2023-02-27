@@ -160,13 +160,14 @@ nav li:hover {
 /******************Section Nuestros productos******************/
 .section-nuestros-productos{
     width: 100%;
-    height: 800px;
+    height: 1500px;
     border: 1px solid hsl(0, 90%, 29%);
     text-align: center;
 }
+/******** containers principal***********************************/
 .container-nuestros-productos{
 width: 100%;
-height: 450px;
+height: 600px;
 border: 1px solid #112685;
 display: flex;
 flex-direction: row;
@@ -175,23 +176,82 @@ justify-content: center;
 }
 .nuestro-producto1_banner{
    
-    width: 50%;
+    width: 52%;
+    height: 95%;
 }
 .nuestro-producto1_banner img{
     width: 100%;
-    height: 450px;
+    height: 100%;
     padding: 0px;
     margin: 0px;
 }
 .nuestro-producto1_anuncio{
 width: 20%;
-height: 450px;
+height: 95%;
 background-color: var(--bg-input-color);
 color: var(--bg-color);
 text-align: center;
 }
+/****************BUTTON PRINCIPAL ****************/
+
 .button{
-    width: 90%;
+    width: 95%;
     height: 10%;
+    margin-top: 90%;
     background-color: var(--bg-input1-color);
+    border: var(--bg-input1-color);
+    color: var(--bg-color);
+    
+   
+}
+/******** productos 2 y 3 ************************************/
+.nuestro-producto2_banner{
+    width: 35%;
+    height: 95%;
+    border: 1px solid var(--bg-input-color);
+    background-color: var(--bg-input-color);
+    margin: 10px;
+    padding: 1px;
+    color: var(--bg-color);
+    text-align: center;
+
+}
+.nuestro-producto2_banner .button{
+    width: 95%;
+    height: 10%;
+    margin-top: 10%;
+    background-color: var(--bg-input1-color);
+    border: var(--bg-input1-color);
+   
+}
+.nuestro-producto3_banner .button{
+    width: 95%;
+    height: 10%;
+    margin-top: 10%;
+    background-color: var(--bg-input1-color);
+    border: var(--bg-input1-color);
+   
+}
+
+.nuestro-producto3_banner{
+    width: 35%;
+    height: 95%;
+    background-color: var(--bg-input-color);
+    margin: 10px;
+    padding: 1px;
+    color: var(--bg-color);
+    text-align: center;
+
+    
+}
+
+.nuestro-producto2_banner img{
+    width: 100%;
+    height: 40%;
+    
+}
+.nuestro-producto3_banner img{
+    width: 100%;
+    height: 40%;
+    
 }
