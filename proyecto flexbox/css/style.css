@@ -6,7 +6,8 @@
     --bg-color: #FFF;
     --text-color: #FFF;
     --header-link-color: #8fabc5;
-    --header-bg-submit-color: #4267b2;
+    --bg-input-color: #4267b2;
+    --bg-input1-color: #0ec155;
     --header-bor-submit-color: #29487d;
     --main-grad-bg-color: #d3d8e8;
     --main-image-text-color: #0e385f;
@@ -98,8 +99,6 @@ nav li:hover {
     height: 25%;
     margin: 0px;
     padding-top: 5%;
-    
-    
 
 }
 .categoria-productos p{
@@ -143,7 +142,7 @@ nav li:hover {
 .container-sobre-nosotros-anuncio{
     width: 50%;
     height: 500px;
-    background-color: var(--header-bg-submit-color);
+    background-color: var(--bg-input-color);
     margin-left: 48%;
     z-index: 2;
     position: absolute;
@@ -162,16 +161,8 @@ nav li:hover {
 .section-nuestros-productos{
     width: 100%;
     height: 800px;
- 
     border: 1px solid hsl(0, 90%, 29%);
-    
-}
-.section-nuestros-productos p.pricipal{
-    font-size: 1.9rem;
-   width: 100%;
-   height: 5%;
     text-align: center;
-   
 }
 .container-nuestros-productos{
 width: 100%;
@@ -192,14 +183,15 @@ justify-content: center;
     padding: 0px;
     margin: 0px;
 }
-.nuestro-producto2_anuncio{
+.nuestro-producto1_anuncio{
 width: 20%;
 height: 450px;
-
-background-color: var(--header-bg-submit-color);
+background-color: var(--bg-input-color);
 color: var(--bg-color);
 text-align: center;
-
-
-
+}
+.button{
+    width: 90%;
+    height: 10%;
+    background-color: var(--bg-input1-color);
 }
