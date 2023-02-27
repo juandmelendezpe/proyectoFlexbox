@@ -159,35 +159,47 @@ nav li:hover {
     font-size: 1.9rem;
 }
 /******************Section Nuestros productos******************/
-.container-nuestros-productos{
+.section-nuestros-productos{
     width: 100%;
     height: 800px;
-   
-    border: 1px solid #8b0707;
+ 
+    border: 1px solid hsl(0, 90%, 29%);
     
 }
-.container-nuestros-productos p{
+.section-nuestros-productos p.pricipal{
     font-size: 1.9rem;
+   width: 100%;
+   height: 5%;
     text-align: center;
+   
 }
-.container-nuestros-productos-header{
-width: 70%;
+.container-nuestros-productos{
+width: 100%;
 height: 450px;
-position: relative;
 border: 1px solid #112685;
+display: flex;
+flex-direction: row;
+justify-content: center;
 
 }
-.container-nuestros-productos-header img{
-    width: 75%;
+.nuestro-producto1_banner{
+   
+    width: 50%;
+}
+.nuestro-producto1_banner img{
+    width: 100%;
     height: 450px;
     padding: 0px;
     margin: 0px;
 }
-.container-nuestros-productos-anuncio{
-width: 25%;
+.nuestro-producto2_anuncio{
+width: 20%;
 height: 450px;
-position: relative;
+
 background-color: var(--header-bg-submit-color);
+color: var(--bg-color);
+text-align: center;
+
 
 
 }
