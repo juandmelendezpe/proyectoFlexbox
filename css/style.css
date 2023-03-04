@@ -44,43 +44,51 @@ header {
 }
 
 /*********************************menu************/
-.menu{
+.menu {
+    width: 100%;
+    height: 4%;
     position: sticky;
     top: 0;
     z-index: 5;
     border: 1px solid black;
-    height: 25px;
+    display: flex;
+    justify-content: space-around;
+
 }
+
 nav{
-    display: flex ;
     width: 100%;
-   background-color: var(--bg-color);
-   margin-block-start: auto;
+    background-color: var(--bg-color);
     float: left;
+    
 }
 nav ul li {
-    padding: 1px;
-    margin: 0; 
-    
+    padding: 10px;
+    margin: 5px; 
+    list-style-type: none;
+    float: left;
 }
 nav li { 
     height: 40px;
-    margin: 5px 100px auto;
-    padding: 10px 10px;
-    width: 8%;
+    margin: 5px ;
+    padding: 10px ;
+    width: 18%;
     text-align: center;
-    display: block;
 }
 nav a{
     text-decoration: none;
-    width: 30%;
-    height: 40px;
+    padding: 5px 25px;
+    margin: 5px;
   
 }
-/*nav li :hover{
+nav li :hover{
     background-color: var(--bg-input-color);
     color: var(--bg-color);
    
+}
+nav a:hover{
+    font-weight: bold;
+    font: 2rem ;
 }
 
 /*----------------------------------Main----------*/
