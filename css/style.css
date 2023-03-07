@@ -11,17 +11,23 @@
     --header-bor-submit-color: #29487d;
     --main-grad-bg-color: #d3d8e8;
     --main-image-text-color: #0e385f;
+    --blue: #23aaff;
+	--purple: #4562f2;
+	--pink: #7a45f8;
+	--coral: #bb0bf6;
+	--orange: #fc2953;
+	--yellow: #ffc743;
+	--bg: #000000;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+  padding: 0px;
+  margin: 0px;
     font-family: sans-serif;
     width: 100%;
 }
-
-.container {
-    margin: 0 auto;
+.container{
+    padding: 0;
     width: 100%;
 }
 
@@ -30,18 +36,49 @@ body {
 }
 
 /**********************************Header*************/
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 header {
-    background-color: var(--bg-color);
+    background-color: var(--bg); 
+    
 }
+
 .header-titulo{
     width: 100%;
-    height: 10%;
-    color: var(--header-bg-submit-color);
+    height: 100px;
     text-align: center;
-    font-size: 2.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    background-color: var(--bg);  
+    font-family: "Fredoka One", cursive;
 }
+
+.header-titulo p{
+    display: inline;
+        letter-spacing: 2px;
+        font-size: 4.5rem;
+        background-image: linear-gradient(
+            45deg,
+            var(--blue) 10%,
+            var(--purple) 20%,
+            var(--pink) 36%,
+            var(--coral) 52%,
+            var(--orange) 69%,
+            var(--yellow) 80%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        background-size: 100%;
+        opacity: 0;
+        animation: stripes 3s ease-in-out infinite;
+    }
+    
+    @keyframes stripes {
+        100% {
+            opacity: 1;
+            background-position: 0 -10px;
+        }
+    }
+    
+
 
 /*********************************menu************/
 .menu {
