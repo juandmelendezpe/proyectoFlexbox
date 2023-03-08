@@ -14,8 +14,6 @@
         
           <div class="header-titulo">
            <p>Tienda Muebles</p>
-          
-         
         </div>
       </header>
       <main class="main_contacto">
@@ -35,19 +33,49 @@
               </ul>
           </nav>
         </div>
+        <h1>Contacto</h1>
         <section>
           <div class="section_contacto">
             <div  class="section_contacto_form_datos">
+              <form method="post" action="">
+                <fieldset>
+                  <legend> TUS DATOS</legend>
+                  <P>
+                  <label for="nombre">Nombre:</label> 
+                  <input type="text" name="nombre" />
+                  <label for="nombre">Asunto:</label>
+                  <input type="text" name="Asunto" />
+                  <label for="nombre">E-mail:</label>
+                  <input type="email" name="E-mail" />
+                  <label for="nombre">Telefono:</label>
+                  <input type="number" name="Telefono" />
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea name="mensaje" rows="">
+                  </textarea>
 
-            </div>
-            <div class="section_contacto_form_pais">
+                  </P>
+              </fieldset>
 
+              </form>
+              <form method="post" action="">
+                <fieldset id="form_pais">
+                  <legend> PAÍS</legend>
+                  <P>
+                  <label for="nombre">Nombre:</label>
+                  </P>
+                </fieldset>
+              </form> 
+              <form method="post" action="">
+                <fieldset id="form_infoExtra">
+                  <legend> INFORMACIÓN EXTRA</legend>
+                  <P>
+                  <label for="nombre">Nombre:</label> 
+                  </P>
+                </fieldset>
+              </form>
             </div>
-            <div class="section_contacto_form_otrosdatos">
-
-            </div>
-          
           </div>
+
           <button class="button_contacto" type="button" a href="index.html"></a> Enviar formulario</button>
             
         </section>
