@@ -87,16 +87,15 @@ header {
     position: sticky;
     top: 0;
     z-index: 5;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
-
 }
 
 nav{
     width: 100%;
     background-color: var(--bg-color);
     float: left;
+    border-width: 2px solid var(--orange);
     
 }
 nav ul li {
@@ -143,7 +142,7 @@ main{
     height: 500px;
     padding: 0;
     z-index: 1;
-   /* background-size: cover;*/
+  
 }
 /******************Section Categoria Productos**********/
 .categoria-productos{
@@ -176,7 +175,7 @@ main{
 .container-sobre-nosotros{
     width: 100%;
     height: 500px;
-    border: 1px solid #0e385f;
+   
     display: flex;
 }
 .container-sobre-nosotros-banner {
@@ -214,7 +213,7 @@ main{
 .section-nuestros-productos{
     width: 100%;
     height: 1870px;
-    border: 1px solid hsl(0, 90%, 29%);
+  
     text-align: center;
     z-index: 2;
 }
@@ -222,7 +221,7 @@ main{
 .container-nuestros-productos{
 width: 100%;
 height: 600px;
-border: 1px solid #112685;
+
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -263,7 +262,7 @@ text-align: center;
 .nuestro-producto2-3_banner{
     width: 35%;
     height: 95%;
-    border: 1px solid var(--bg-input-color);
+   
     background-color: var(--bg-input-color);
     margin: 10px;
     padding: 1px;
@@ -376,7 +375,7 @@ main h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border :1px solid #112685; 
+   
 }
 .section_productos_box{
     width: 30%;
@@ -390,9 +389,11 @@ main h1{
     height: 270px;
     width: 100%;
 }
-.section_productos_box img :hover{
-    width: 35%;
-    height: 30%;
+.section_productos_box img:hover{
+    width: 105%;
+    height: 105%;
+    margin: 0px;
+    padding: 50px;
     
 
 }
@@ -466,6 +467,9 @@ input{
     margin: 15px;
     padding: 1px;
     float: right;
+}
+input:focus{
+    background-color: #76c8fe9b;
 }
 textarea{
     width: 85%;

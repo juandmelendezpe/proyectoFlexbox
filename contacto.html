@@ -42,13 +42,13 @@
                   <legend> TUS DATOS</legend>
                   <P>
                   <label for="nombre">Nombre:</label> 
-                  <input type="text" name="nombre" />
+                  <input type="text" name="nombre" placeholder="Tu Nombre" />
                   <label for="nombre">Asunto:</label>
-                  <input type="text" name="Asunto" />
+                  <input type="text" name="Asunto" placeholder="Asunto"/>
                   <label for="nombre">E-mail:</label>
-                  <input type="email" name="E-mail" />
+                  <input type="email" name="E-mail" placeholder="E-mail" />
                   <label for="nombre">Telefono:</label>
-                  <input type="number" name="Telefono" />
+                  <input type="text" name="Telefono" placeholder="Telefono"/>
                   <label for="mensaje">Mensaje:</label>
                   <textarea name="mensaje" rows="">
                   </textarea>
@@ -61,16 +61,29 @@
                 <fieldset id="form_pais">
                   <legend> PAÍS</legend>
                   <P>
-                  <label for="nombre">Nombre:</label>
+                  <label for="pais">País:</label>
+                  <select name="provincia" multiple="multiple">
+                    <option value="a">Alemania</option>
+                    <option value="b">Andorra</option>
+                    <option value="c">Argentina</option>
+                    <option value="d">Perú</option>
+                    <option value="e">Brazil</option>
+                    <option value="f">España</option>
+                    <option value="d">Francia</option>
+                    <option value="f">Italia</option>
+                   </select>
                   </P>
                 </fieldset>
               </form> 
               <form method="post" action="">
                 <fieldset id="form_infoExtra">
                   <legend> INFORMACIÓN EXTRA</legend>
-                  <P>
-                  <label for="nombre">Nombre:</label> 
-                  </P>
+                  <label for="nombre">Cliente:</label> 
+                  <input type="radio" id="soup" name="meal" checked>
+                  <label for="nombre">Proveedor:</label> 
+                  <input type="radio" id="soup" name="meal" checked>
+                  <label for="nombre">Categooria de Interes:</label> 
+                  <input type="text" name="nombre" placeholder="" />
                 </fieldset>
               </form>
             </div>
