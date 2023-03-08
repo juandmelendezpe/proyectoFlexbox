@@ -385,10 +385,18 @@ main h1{
     padding: 2px;
 
 }
+
 .section_productos_box img{
     height: 270px;
     width: 100%;
 }
+.section_productos_box img :hover{
+    width: 35%;
+    height: 30%;
+    
+
+}
+
 
 /****************************************************************/
 /*******************Page contacto***********************/
