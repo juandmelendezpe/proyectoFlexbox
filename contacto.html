@@ -57,12 +57,12 @@
               </fieldset>
 
               </form>
-              <form method="post" action="">
-                <fieldset id="form_pais">
-                  <legend> PAÍS</legend>
-                  <P>
-                  <label for="pais">País:</label>
-                  <select name="provincia" multiple="multiple">
+              <fieldset id="form_pais">
+                <legend> PAÍS</legend>
+                <form method="post" action="#">
+                  
+                  <label for="lang">País:</label>
+                  <select id ="lang" name="provincia">
                     <option value="a">Alemania</option>
                     <option value="b">Andorra</option>
                     <option value="c">Argentina</option>
@@ -72,9 +72,9 @@
                     <option value="d">Francia</option>
                     <option value="f">Italia</option>
                    </select>
-                  </P>
+                  
+                  </form> 
                 </fieldset>
-              </form> 
               <form method="post" action="">
                 <fieldset id="form_infoExtra">
                   <legend> INFORMACIÓN EXTRA</legend>
@@ -82,8 +82,8 @@
                   <input type="radio" id="soup" name="meal" checked>
                   <label for="nombre">Proveedor:</label> 
                   <input type="radio" id="soup" name="meal" checked>
-                  <label for="nombre">Categooria de Interes:</label> 
-                  <input type="text" name="nombre" placeholder="" />
+                  <label  class ="categoria_interes_label" for="nombre">Categoria de Interes:</label> 
+                  <input id ="categoria_interes_input" type="text" name="nombre"/>
                 </fieldset>
               </form>
             </div>

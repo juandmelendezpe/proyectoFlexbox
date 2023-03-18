@@ -459,7 +459,7 @@ label{
     margin: 9px;
     padding: 1px;
     float: left;
-
+    margin-left: 20px;
 }
 
 input{
@@ -470,27 +470,52 @@ input{
     float: right;
 }
 input:focus{
-    background-color: #76c8fe6d;
+    background-color: #beddf3f2;
 }
 textarea{
-    width: 85%;
+    width: 80%;
     height: 180px;
     margin: 10px;
     padding: 1px;
     float: right;
-
+    
 }
 #form_pais{
     width: 90%;
-   height: 150px;
-   margin: 25px;
-   padding: 1px;
-
+    height: 150px;
+    margin: 25px;
+    padding: 1px;
+    
 }
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 #form_infoExtra{
     width: 90%;
-   height: 200px;
-   margin: 25px;
-   padding: 1px;
+    height: 200px;
+    margin: 25px;
+    padding: 1px;
+    
+}
+#form_infoExtra input[type="radio" i] {
+    width: 60px;
+    float: left;
+
+}
+#form_infoExtra label {
+    float: left;
+
+
+}
+.categoria_interes_label{
+width: 80%;
+float: none;
+
+}
+#categoria_interes_input{
+float: left;
+margin-left: 20px;
 
 }
