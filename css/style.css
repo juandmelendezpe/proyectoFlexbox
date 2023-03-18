@@ -438,7 +438,7 @@ p .titulo_contacto{
 }
 fieldset{
    width: 90%;
-   height: 550px;
+   height: 480px;
    margin: 25px;
    padding: 1px;
 
@@ -455,21 +455,22 @@ legend{
 
 }
 label{
-    
-    margin: 15px;
+    width: 81px;
+    margin: 9px;
     padding: 1px;
     float: left;
+
 }
 
 input{
-    width: 85%;
+    width: 75%;
     height: 30px;
-    margin: 15px;
+    margin: 5px;
     padding: 1px;
     float: right;
 }
 input:focus{
-    background-color: #76c8fe9b;
+    background-color: #76c8fe6d;
 }
 textarea{
     width: 85%;
