@@ -35,7 +35,7 @@ body {
     clear: both;
 }
 
-/**********************************Header*************/
+/***************************************Header*************************************/
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 header {
     background-color: var(--bg); 
@@ -47,13 +47,13 @@ header {
     height: 100px;
     text-align: center;
     background-color: var(--bg);  
-    font-family: "Fredoka One", cursive;
+    font-family: "Fredoka One";
 }
 
 .header-titulo p{
     display: inline;
         letter-spacing: 2px;
-        font-size: 4.5rem;
+        font-size: 4.8rem;
         background-image: linear-gradient(
             45deg,
             var(--blue) 10%,
@@ -80,7 +80,7 @@ header {
     
 
 
-/*********************************menu************/
+/**********************************************menu********************************/
 .menu {
     width: 100%;
     height: 4%;
@@ -115,7 +115,7 @@ nav a{
     text-decoration: none;
     padding: 5px 25px;
     margin: 5px;
-  
+    
 }
 nav li :hover{
     background-color: var(--bg-input-color);
@@ -127,11 +127,16 @@ nav a:hover{
     font: 2rem ;
 }
 
-/*----------------------------------Main----------*/
+/*----------------------------------------------------------Main---------------------*/
 main{
     width: 100%;
     height: auto;
 }
+main h1{
+    text-align: center;
+    margin: 10px;
+}
+
 .banner-principal{
     width: 100%;
     height: 500px;
@@ -144,7 +149,7 @@ main{
     z-index: 1;
   
 }
-/******************Section Categoria Productos**********/
+/********************************************Section Categoria Productos**********/
 .categoria-productos{
     width: 100%;
     height: 25%;
@@ -171,7 +176,7 @@ main{
     width: 95% !important;
     height: 75%;
 }
-/******************Section Sobre Nosotros******************/
+/*****************************************Section Sobre Nosotros******************/
 .container-sobre-nosotros{
     width: 100%;
     height: 500px;
@@ -209,7 +214,7 @@ main{
     text-align: center;
     font-size: 1.9rem;
 }
-/******************Section Nuestros productos******************/
+/**************************************Section Nuestros productos******************/
 .section-nuestros-productos{
     width: 100%;
     height: 1870px;
@@ -217,7 +222,7 @@ main{
     text-align: center;
     z-index: 2;
 }
-/******** containers principal***********************************/
+/*************************** containers principal***********************************/
 .container-nuestros-productos{
 width: 100%;
 height: 600px;
@@ -245,7 +250,7 @@ background-color: var(--bg-input-color);
 color: var(--bg-color);
 text-align: center;
 }
-/****************BUTTON PRINCIPAL ****************/
+/**************************************************BUTTON PRINCIPAL ****************/
 
 .button{
     width: 85%;
@@ -258,7 +263,7 @@ text-align: center;
     
    
 }
-/******** productos 2 y 3 ************************************/
+/******************************* productos 2 y 3 ************************************/
 .nuestro-producto2-3_banner{
     width: 35%;
     height: 95%;
@@ -282,7 +287,7 @@ text-align: center;
     width: 100%;
     height: 40%;  
 }
-/******** productos 4 - 5 - 6 ************************************/
+/********************** productos 4 - 5 - 6 ************************************/
 
 .nuestro-producto4-5-6_banner{
     width: 23%;
@@ -305,7 +310,7 @@ text-align: center;
     width: 100%;
     height: 40%; 
 }
-/********FOOTER ************************************/
+/*********************************FOOTER ************************************/
 footer{
     width: 100%;
     height: 15%;
@@ -327,15 +332,11 @@ footer{
 .footer_box h1{
     text-align: left;
 }
-/****************************************************************/
-/*******************Page nosotros***********************/
-main h1{
-    text-align: center;
-    margin: 5px;
-}
+/*********************************************************************/
+/***************************Page sobre nosotros***********************/
 .container-sobre-nosotros_page{
     width: 100%;
-    height: 350px;
+    height: 380px;
     display: flex;
     justify-content:center;
 }
@@ -362,8 +363,8 @@ main h1{
     
 }
 
-/****************************************************************/
-/*******************Page Galeria***********************/
+/*******************************************************************/
+/********************************Page Galeria***********************/
 .main_galeria{
     width: 100%;
     height: 100%;
@@ -399,8 +400,8 @@ main h1{
 }
 
 
-/****************************************************************/
-/*******************Page contacto***********************/
+/*******************************************************************/
+/*******************************Page contacto***********************/
 .main_contacto{
     width: 100%;
     height: 100%;
@@ -423,19 +424,26 @@ p .titulo_contacto{
     height: auto;
    
 }
-
-.button_contacto{
-    width: 15%;
-    height: 60px;
-    border: 1px solid #112685;
+/************************BUTTON ENVIAR FORMULRIO *****************/
+.button_contacto_formulario{
+   
     background-color: var(--bg-input1-color);
     color: var(--bg-color);
     text-align: center;
     font-weight: bold;
     font-size: 1rem;
-    margin: 10px;
-    margin-left: 22%;
+    margin: 25px;
+    display: flex;
 }
+
+a{
+    text-align: center;
+     padding: 15px;
+    text-decoration: none;
+    width: 30%;
+}
+/*****************fieldset************************************/
+
 fieldset{
    width: 90%;
    height: 480px;
@@ -452,7 +460,7 @@ legend{
     justify-content: center;
     width: 95%;
     height: 35px;
-
+    padding: 6.5px;
 }
 label{
     width: 81px;
@@ -478,7 +486,7 @@ textarea{
     margin: 10px;
     padding: 1px;
     float: right;
-    
+    display: flex;
 }
 #form_pais{
     width: 90%;
@@ -491,6 +499,9 @@ textarea{
 select {
     margin-bottom: 10px;
     margin-top: 10px;
+    width: 25%;
+    padding: 3px;
+    
   }
 #form_infoExtra{
     width: 90%;
